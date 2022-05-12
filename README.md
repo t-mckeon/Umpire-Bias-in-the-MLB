@@ -10,11 +10,19 @@ Picutre - Ball called on close call in a two-strike count
 
 **Data **
 
-The data for this project comes from https://baseballsavant.mlb.com/statcast_search. Statcast has been tracking every pitch in the MLB and their results since 2008. Pitch data from each year is available in the Data Folder. This project uses the combined sheet from 2008-2021.
+The data for this project comes from https://baseballsavant.mlb.com/statcast_search. Statcast has been tracking every pitch in the MLB and their results since 2008. Pitch data from each year is available in the Data folder. This project uses the combined sheet from 2008-2021.
+
+Dataset selected column meanings:
+- pitch_name: Type of Pitch
+- plate_x: Horizontal position of the ball when it crosses home plate from the catcher's perspective, normalized for lefty/right batters. (value of ball crossing left side of plate = 1.5, value of ball crossing right side of plate = 3.5)
+- plate_z: Vertical position of the ball when it crosses home plate from the catcher's perspective, adjusted for height of batter. (value of ball crossing bottom of the zone = -0.725, value of ball crossing top of zone = 0.725)
+- description: Result of pitch (called strike, swinging strike, ball, in-play, etc.)
+- stand: Side of the plate batter is standing
+- For other column descriptions, see the Stacast Documentation - https://baseballsavant.mlb.com/csv-docs
 
 **Lets Get Started**
 
-First, let's load in all #NUMBER OF PITCHES thrown between 2008 and 2021. We'll filter out pitches that were swung at, leaving pitches in need of a ball or strike call from the home plate uppire
+First, let's load in all 5.2 million pitches thrown between 2008 and 2021. We'll filter out pitches that were swung at, leaving pitches in need of a ball or strike call from the home plate umpire.
 
 Picture - all_pitches.svg
 
