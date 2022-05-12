@@ -24,13 +24,13 @@ Selected dataset column meanings:
 
 First, let's load in all 5.2 million pitches thrown between 2008 and 2021. We'll filter out pitches that were swung at, leaving pitches in need of a ball or strike call from the home plate umpire.
 
-Picture - all_pitches.svg
+<img src="https://user-images.githubusercontent.com/105253832/168168842-56cdffc2-aa01-4fb9-8f0a-5a367799c6a3.svg" width="500" height="500">
 
 We can see that the umpires behind the plate are far from perfect in calling balls and strikes. But we'll need a more sophisticated measurement tool than our eye. To do this we'll use a combination of a Logistic Regression Model and a contour plot. 
 
 Logistic Regression Model Formula
 
-Picture - Pitches Plotted with hue as the predicted variable (0.0-1.0)
+ADD HERE
 
 Contour Plot Explanation, with measurement of circles
 
