@@ -42,5 +42,10 @@ Picture - 9-zone breakout
 
 Using these new visualization tools, we can breakout the data into different situations and clearly show the systematic biases that exist among MLB home plate umpires. Here are a few of the most striking. 
 
-![alt text](https://github.com/t-mckeon/Umpire-Bias-in-the-MLB/blob/main/figures/less_than_2_strikes.svg =250x250) ![alt text](https://github.com/t-mckeon/Umpire-Bias-in-the-MLB/blob/main/figures/2_strikes.svg =250x250) 
+
+![less_than_2_strikes](https://user-images.githubusercontent.com/105253832/168164448-45386ea3-2622-4539-a62d-21e75e1205aa.svg)
+![2_strikes](https://user-images.githubusercontent.com/105253832/168164516-c4127e96-151e-4ceb-8b5e-8bdf05029f56.svg)
+
+
+
 Pictures - Extra-Innings vs. Non
