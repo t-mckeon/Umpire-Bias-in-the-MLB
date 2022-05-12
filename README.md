@@ -4,7 +4,7 @@ Hello. Welcome to my investigation into the systematic biases of strike calling 
 
 ## My Qualm
 
-<img align="right" src="https://user-images.githubusercontent.com/105253832/168170520-449b412b-548a-4a18-9c60-8ee9a2366cc6.svg" width="400" height="400">
+<img align="right" src="https://user-images.githubusercontent.com/105253832/168171958-4ca26c14-b1f9-40ae-8cad-3d78826b7779.svg" width="500" height="500">
 Akin to most every baseball fan, I believe that MLB home plate umpires consistently blow strike and ball calls against my team (Go Cubbies). While it is most likely not true that MLB umpires have it out for my team, it is true that human umpires are tasked with an impossibly difficult task in calling balls and strikes consistently. New pitch-tracking technology has given average fans proof of the umpire's errors, as broadcasts show real-time position data of pitches as they cross the plate. This project seeks to take advantage of this pitch-tracking in the aggregate, in search of consistent biases MLB Umpires show, looking into possible home feild advantages given, advantages for righty or lefty hitters, and the squeezing of the zone on 2-strike counts and in extra innings.
 
 ## Data
