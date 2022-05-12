@@ -10,15 +10,15 @@ Picutre - Ball called on close call in a two-strike count
 
 ## Data
 
-The data for this project comes from [Statcast's Baseabll Savant Database](https://baseballsavant.mlb.com/statcast_search). Statcast has been tracking every pitch in the MLB and their results since 2008. Pitch data from each year is available in the Data folder. This project uses the combined sheet from 2008-2021.
+The data for this project comes from [Statcast's Baseball Savant Database](https://baseballsavant.mlb.com/statcast_search). Statcast has been tracking every pitch in the MLB and their results since 2008. Pitch data from each year is available in the Data folder. This project uses the combined sheet from 2008-2021.
 
-Dataset selected column meanings:
+Selected dataset column meanings:
 - pitch_name: Type of Pitch
 - plate_x: Horizontal position of the ball when it crosses home plate from the catcher's perspective, normalized for lefty/right batters. (value of ball crossing left side of plate = 1.5, value of ball crossing right side of plate = 3.5)
 - plate_z: Vertical position of the ball when it crosses home plate from the catcher's perspective, adjusted for height of batter. (value of ball crossing bottom of the zone = -0.725, value of ball crossing top of zone = 0.725)
 - description: Result of pitch (called strike, swinging strike, ball, in-play, etc.)
 - stand: Side of the plate batter is standing
-- For other column descriptions, see the Stacast Documentation - https://baseballsavant.mlb.com/csv-docs
+- For other column descriptions, see the [Stacast Documentation](https://baseballsavant.mlb.com/csv-docs)
 
 ## Lets Get Started
 
@@ -43,9 +43,11 @@ Picture - 9-zone breakout
 Using these new visualization tools, we can breakout the data into different situations and clearly show the systematic biases that exist among MLB home plate umpires. Here are a few of the most striking. 
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/105253832/168164448-45386ea3-2622-4539-a62d-21e75e1205aa.svg" width="300" height="300">
-<img src="https://user-images.githubusercontent.com/105253832/168164516-c4127e96-151e-4ceb-8b5e-8bdf05029f56.svg" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/105253832/168164448-45386ea3-2622-4539-a62d-21e75e1205aa.svg" width="500" height="500">
+<img src="https://user-images.githubusercontent.com/105253832/168164516-c4127e96-151e-4ceb-8b5e-8bdf05029f56.svg" width="500" height="500">
 </p>
 
-
-Pictures - Extra-Innings vs. Non
+<p float="left">
+<img src="https://user-images.githubusercontent.com/105253832/168165777-685cde0c-30b7-4ad0-a9d8-dd91ad0f51c6.svg" width="500" height="500">
+<img src="https://user-images.githubusercontent.com/105253832/168165820-36c5362e-3990-4c76-9bd5-64fe27ddea17.svg" width="500" height="500">
+</p>
