@@ -2,10 +2,10 @@
 
 Hello. Welcome to my investigation into the systematic biases of strike calling in the MLB. 
 
-## My Qualm
+## Inquiry
 
 <img align="right" src="https://user-images.githubusercontent.com/105253832/168171958-4ca26c14-b1f9-40ae-8cad-3d78826b7779.svg" width="250" height="250">
-Akin to most every baseball fan, I believe that MLB home plate umpires consistently blow strike and ball calls against my team (Go Cubbies). While it is most likely not true that MLB umpires have it out for my team, it is true that human umpires are tasked with an impossibly difficult task in calling balls and strikes consistently. New pitch-tracking technology has given average fans proof of the umpire's errors, as broadcasts show real-time position data of pitches as they cross the plate. This project seeks to take advantage of this pitch-tracking in the aggregate, in search of consistent biases MLB Umpires show, looking into possible home feild advantages given, advantages for righty or lefty hitters, and the squeezing of the zone on 2-strike counts and in extra innings.
+Human umpires are tasked with the important yet extremely difficult task in deciding whether the hardest thrown and nastiest pitches in the world are strikes or not. With motion technology, TV audiences are now shown the actual path of a pitch on close calls, ousting human home plate umpires as inconsistent and faulty in their judgements. This project seeks to take advantage of this pitch-tracking in the aggregate, in search of consistent biases MLB Umpires have in their strike calling.
 
 ## Data
 
@@ -22,9 +22,9 @@ Selected dataset column meanings:
 ## Lets Get Started
 
 First, let's load in all 5.2 million pitches thrown between 2008 and 2021. We'll filter out pitches that were swung at, leaving pitches in need of a ball or strike call from the home plate umpire.
-
+<p float="center">
 <img align="center" img src="https://user-images.githubusercontent.com/105253832/168170766-8dd49260-a635-4e60-925e-a81a6e43946c.png" width="500" height="500">
-
+</p>
 We can see that the umpires behind the plate are far from perfect in calling balls and strikes. But we'll need a more sophisticated measurement tool than our eye. To do this we'll use a combination of a Logistic Regression Model and a contour plot. 
 
 Logistic Regression Model Formula
