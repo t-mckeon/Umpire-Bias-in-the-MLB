@@ -4,7 +4,7 @@ Hello. Welcome to my investigation into the systematic biases of strike calling 
 
 ## Inquiry
 
-<img align="right" src="https://user-images.githubusercontent.com/105253832/168171958-4ca26c14-b1f9-40ae-8cad-3d78826b7779.svg" width="250" height="250">
+<img align="right" src="https://user-images.githubusercontent.com/105253832/168171958-4ca26c14-b1f9-40ae-8cad-3d78826b7779.svg" width="400" height="400">
 Human umpires are tasked with the important yet extremely difficult task in deciding whether the hardest thrown and nastiest pitches in the world are strikes or not. With motion technology, TV audiences are now shown the actual path of a pitch on close calls, ousting human home plate umpires as inconsistent and faulty in their judgements. This project seeks to take advantage of this pitch-tracking in the aggregate, in search of consistent biases MLB Umpires have in their strike calling.
 
 ## Data
@@ -47,7 +47,8 @@ We can start to see where MLB Umpires are most likely to call a strike, but we n
 
 Finally, lets add one more visual aid. I added the classic 9-zone breakout of the MLB strikezone, and the percentage of pitches in each zone that were correctly called a strike. Here is the breakout for all pitches from 2008-2021.
 
-Picture - 9-zone breakout
+<img src="https://user-images.githubusercontent.com/105253832/168391618-5185b2f8-e234-4e92-ad9c-f61fb994cf60.svg" width="500" height="500">
+
 
 Using these new visualization tools, we can breakout the data into different situations and clearly show the systematic biases that exist among MLB home plate umpires. Here are a few of the most striking. 
 
@@ -60,3 +61,5 @@ Using these new visualization tools, we can breakout the data into different sit
 <img src="https://user-images.githubusercontent.com/105253832/168165777-685cde0c-30b7-4ad0-a9d8-dd91ad0f51c6.svg" width="500" height="500">
 <img src="https://user-images.githubusercontent.com/105253832/168165820-36c5362e-3990-4c76-9bd5-64fe27ddea17.svg" width="500" height="500">
 </p>
+
+
