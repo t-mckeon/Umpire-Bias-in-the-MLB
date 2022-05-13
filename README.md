@@ -38,14 +38,14 @@ After running the model and merging the predicted values to the origional data, 
 
 <img src="https://user-images.githubusercontent.com/105253832/168171042-d9f528a8-edc4-46f5-b5f8-465c39831e03.png" width="500" height="500">
 
-Contour Plot Explanation, with measurement of circles
+We can start to see where MLB Umpires are most likely to call a strike, but we need to create a sharp edge to clearly view the bias. To do this, we'll treat the predicted values like altitute values on a map, and draw contour circles at the 50% "altitude (circle in the visualization that is white), in order to represent the points where MLB Umpires are equally likely to call a ball or a strike. This is represented by the black circle below, additionally let's add a contour circle at the 90% point to add some more information. 
 
 <p float="left">
 <img src="https://user-images.githubusercontent.com/105253832/168171098-a9852550-e4ba-43bd-a3b3-b40a5cc8e13d.png" width="500" height="500">
 <img src="https://user-images.githubusercontent.com/105253832/168171232-173b59b6-8409-43e6-84c5-db5dc0406213.svg" width="500" height="500">
 </p>
 
-For additional information, I added the classic 9-zone breakout of the MLB strikezone, and the percentage of pitches in each zone that were correctly called a strike. Here is the breakout for all pitches from 2008-2021.
+Finally, lets add one more visual aid. I added the classic 9-zone breakout of the MLB strikezone, and the percentage of pitches in each zone that were correctly called a strike. Here is the breakout for all pitches from 2008-2021.
 
 Picture - 9-zone breakout
 
