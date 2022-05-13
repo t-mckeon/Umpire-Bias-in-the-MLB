@@ -21,13 +21,20 @@ Selected dataset column meanings:
 
 ## Lets Get Started
 
-First, let's load in all 5.2 million pitches thrown between 2008 and 2021. We'll filter out pitches that were swung at, leaving pitches in need of a ball or strike call from the home plate umpire.
+First, let's load in a sample of 520,000 pitches thrown between 2008 and 2021. We'll filter out pitches that were swung at, leaving 501,038 pitches in need of a ball or strike call from the home plate umpire.
 <p float="center">
 <img align="center" img src="https://user-images.githubusercontent.com/105253832/168170766-8dd49260-a635-4e60-925e-a81a6e43946c.png" width="500" height="500">
 </p>
-We can see that the umpires behind the plate are far from perfect in calling balls and strikes. But we'll need a more sophisticated measurement tool than our eye. To do this we'll use a combination of a Logistic Regression Model and a contour plot. 
+We can see that the umpires behind the plate are far from perfect in calling balls and strikes. But we'll need a more sophisticated measurement tool than our eye. To do this we'll use a combination of a Generalized Additive Model and a contour plot. 
 
-Logistic Regression Model Formula
+A Generalized Additive Model is a model in which the response variable depends on unkown smooth functions of predictor variables. With the goal of attempting to find a general strike zone from MLB umpires, interpretability of the coefficients of the model is not as important as creating a visual understanding of how balls and strikes are called. 
+
+The Model looks like this: g(E(Y)) = B0 + f1(x1) + f2(x2), specified as a binomial distribution
+- g(E(Y)) = Expected Result of Pitch - Closer to 1 = More likely to be called a strike, Closer to 0 = More likely to be called a ball
+- x1 = plate_x, horizontal position of pitch as it crosses the plate
+- x2 = plate_z, vertical position of pitch as it crosses the plate
+
+After running the model and merging the predicted values to the origional data, we can visualize the results by assigning a colormap to the predicted value.
 
 <img src="https://user-images.githubusercontent.com/105253832/168171042-d9f528a8-edc4-46f5-b5f8-465c39831e03.png" width="500" height="500">
 
