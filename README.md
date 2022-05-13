@@ -57,9 +57,4 @@ Using these new visualization tools, we can breakout the data into different sit
 <img src="https://user-images.githubusercontent.com/105253832/168164516-c4127e96-151e-4ceb-8b5e-8bdf05029f56.svg" width="500" height="500">
 </p>
 
-<p float="left">
-<img src="https://user-images.githubusercontent.com/105253832/168165777-685cde0c-30b7-4ad0-a9d8-dd91ad0f51c6.svg" width="500" height="500">
-<img src="https://user-images.githubusercontent.com/105253832/168165820-36c5362e-3990-4c76-9bd5-64fe27ddea17.svg" width="500" height="500">
-</p>
-
-
+Here we see a clear squeezing of the strikezone when the count has 2 strikes. This is an example of human bias - likely the umpire not wanting to ring up a batter on a close call - influencing the results of the game. For more, see the Umpire Bias in the MLB PDF report in this repository.
